@@ -14,7 +14,7 @@
 
 1. Clone this repo:
     ```sh
-    git clone https://github.com/example/flow-vscode.git
+    git clone https://github.com/guardbldev/Flow.git
     cd flow-vscode
     npm install
     ```
@@ -42,10 +42,7 @@ Open a `.fl` file and run:
 - [ ] Docs hover and jump to symbol
 - [ ] Debugger integration
 
-## Contributing
-
-- PRs and issues welcome!
-- See [src/extension.ts](src/extension.ts) for the extension entrypoint.
+## Contributing -- coming soon
 
 ## License
 
