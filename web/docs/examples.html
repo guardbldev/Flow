@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flow Examples</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header><a href="../index.html">← Flow Docs</a><h1>Examples</h1></header>
+    <main>
+        <h2>Basic Counter</h2>
+        <pre>
+screen Counter:
+    state count = 0
+
+    button "Increment":
+        count += 1
+
+    text "Current count: {count}"
+        </pre>
+        <h2>Form & Events</h2>
+        <pre>
+form Feedback:
+    input name
+    textarea message
+
+    button "Send":
+        on click:
+            fetch "/api/feedback"
+        </pre>
+        <h2>Component & Animation</h2>
+        <pre>
+component GrowButton inherits Button:
+    animate scale
+    button "Grow":
+        on click:
+            scale += 0.5
+        </pre>
+        <h2>Advanced UI</h2>
+        <pre>
+screen Dashboard:
+    row:
+        card:
+            icon "📈"
+            heading "Stats"
+        card:
+            icon "📝"
+            heading "Notes"
+    grid:
+        list "Items":
+            listItem "Item 1"
+            listItem "Item 2"
+        </pre>
+    </main>
+</body>
+</html>

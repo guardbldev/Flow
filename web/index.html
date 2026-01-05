@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flow Language Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Flow Logo" />
+        <h1>🌊 Flow — Unified App Language</h1>
+        <nav>
+            <a href="docs/getting-started.html">Get Started</a>
+            <a href="docs/keywords.html">Keywords</a>
+            <a href="docs/types.html">Types</a>
+            <a href="docs/ui-root.html">UI Root</a>
+            <a href="docs/layout.html">Layout</a>
+            <a href="docs/ui-elements.html">UI Elements</a>
+            <a href="docs/styling.html">Styling</a>
+            <a href="docs/events.html">Events</a>
+            <a href="docs/state.html">State</a>
+            <a href="docs/animation.html">Animation</a>
+            <a href="docs/networking.html">Networking</a>
+            <a href="docs/examples.html">Examples</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>What is Flow?</h2>
+            <p>
+                Flow is a single-language solution for UI, app logic, and state.
+                No HTML/CSS/JS split. One syntax, beautiful defaults, advanced extensibility.
+            </p>
+            <p>
+                <b>Beginner friendly.</b> <br> 
+                <b>Visual-first, but not limiting.</b> <br> 
+                <b>Opinionated yet overridable.</b>
+            </p>
+        </section>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Unified layout, logic & state</li>
+                <li>Automatic, beautiful layouts</li>
+                <li>Reactive state and bindings</li>
+                <li>Advanced events & animations</li>
+                <li>Platform overrides for web/desktop/mobile</li>
+                <li>Full WASM/native output support</li>
+                <li>Simple but deep</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Quick Examples</h2>
+            <pre>
+screen Home:
+    title "Welcome!"
+
+    state clicks = 0
+
+    button "Click Me":
+        clicks += 1
+
+    text "You clicked {clicks} times."
+            </pre>
+        </section>
+        <footer>
+            <p>© 2026 Flow Contributors & Community</p>
+        </footer>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

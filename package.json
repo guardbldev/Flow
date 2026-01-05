@@ -1,0 +1,41 @@
+{
+  "name": "flow-vscode",
+  "displayName": "Flow Language Support",
+  "description": "Advanced support for the Flow programming language: syntax highlighting, run tasks, and more.",
+  "version": "1.0.0",
+  "publisher": "flowlang",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Programming Languages"],
+  "activationEvents": [
+    "onLanguage:flow",
+    "onCommand:flow.runFile"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [{
+      "id": "flow",
+      "aliases": ["Flow", "flow"],
+      "extensions": [".fl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "flow",
+      "scopeName": "source.flow",
+      "path": "./syntaxes/flow.tmLanguage.json"
+    }],
+    "commands": [{
+      "command": "flow.runFile",
+      "title": "Run Flow File"
+    }]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.4.0",
+    "vscode": "^1.1.37"
+  }
+}
