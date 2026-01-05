@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Flow Project
+Copyright (c) 2025 Flow 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ furnished to do so, subject to the following conditions:
    Software.
 
 4. For significant changes or large public deployments, a citation or hyperlink to
-   the project's original repository (https://github.com/example/flow-lang) is
+   the project's original repository (https://github.com/guardbldev/Flow) is
    requested but not required.
 
 5. This license applies globally and perpetually, including modifications and
@@ -35,7 +35,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 -------------------------------------------------------------------------------
 
-This project respects the spirit of the Python open source license:
+This project respects the spirit of the open source license:
 - Freedom of use, modification, and community-driven development.
 - Encouragement of attribution, innovation, and fair play.
 - Please contribute upstream if you fix bugs or add value!

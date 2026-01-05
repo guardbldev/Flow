@@ -36,6 +36,5 @@
       "name": "comment.line.double-slash.flow",
       "match": "//.*$"
     }
-    // Expand additional Flow keywords, events, elements, styling, etc.
   ]
 }
